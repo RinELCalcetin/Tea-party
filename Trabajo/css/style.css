@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(252, 241, 227);
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    align-items: center;
+}
+/* TETERA */
+#tetera{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    left: 41%;
+    top: 10%;
+
+}
+/* LETRAS Y FLECHAS */
+#flecha1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(140deg);
+    right: 23%;
+    top: 40%;
+}
+#flecha2{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    transform: rotate(70deg);
+    left: 10%;
+    top: 40%;
+}
+#texto1{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* CONTENEDORES INGREDIENTES */
+#contenedorG{
+    background-color: rgb(99, 43, 17);
+    width: 1570px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
+}
+
+.cajon{
+    position: relative;
+    background-color: rgb(143, 94, 47);
+    border-radius: 10px;
+    top: 5%;
+    left: 0.5%;
+    height: 180px;
+    width: 180px;
+}
+#C2{
+    position: absolute;
+    top: 5%;
+    left: 13%;
+}
+#C3{
+    position: absolute;
+    top: 5%;
+    left: 25.5%;
+}
+#C4{
+    position: absolute;
+    top: 5%;
+    left: 38%;
+}
+#C5{
+    position: absolute;
+    top: 5%;
+    left: 50.5%;
+}
+#C6{
+    position: absolute;
+    top: 5%;
+    left: 63%;
+}
+#C7{
+    position: absolute;
+    top: 5%;
+    left: 75.5%;
+}
+#C8{
+    position: absolute;
+    top: 5%;
+    left: 87.8%;
+}
+/* CAJAS FUEGO */
+
+#fuego{
+    background-color: rgb(165, 115, 92);
+    width: 570px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.cajonT{
+    position: relative;
+    background-color: rgb(143, 94, 47);
+    border-radius: 10px;
+    top: 5%;
+    left: 0.9%;
+    height: 180px;
+    width: 180px;
+}
+
+#T2{
+    position: absolute;
+    top: 5%;
+    left: 34%;
+}
+
+#T3{
+    position: absolute;
+    top: 5%;
+    left: 67%;
+}
+/* INGREDIENTES */
+
+.ingrediente{
+    position: absolute;
+    width: 100vh;
+    z-index: 10;
+    width: 180px;
+    height: 180px;
+}
+
