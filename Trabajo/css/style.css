@@ -32,8 +32,19 @@ body{
     top: 40%;
 }
 #texto1{
+    position: absolute;
+    top: 25%;
+    left: 2%;
     font-size: xx-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#texto2{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 /* CONTENEDORES INGREDIENTES */
 #contenedorG{
